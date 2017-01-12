@@ -12,8 +12,4 @@ function initMap(){
 
 initMap();
 
-function changeColor(){
-	$('body').css('background-color','blue');
-}
 
-changeColor();
