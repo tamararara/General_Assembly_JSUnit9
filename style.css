@@ -1,0 +1,46 @@
+body{
+	margin: auto;
+	text-align: center;
+	display:block;
+	background-color:lavender;
+	font-family:Arial;
+}
+
+img{
+	width: 75%;
+}
+
+#makeRes{
+	border: 1px solid black;
+	text-align: left;
+	padding: 10px;
+	float: left;
+	margin-left:10%;
+	height:300px;
+	width: 30%;
+	float:left;
+	
+}
+#existingRes{
+	border: 1px solid black;
+	padding: 5px;
+	margin-left:50%;
+	width: 30%;
+	height:300px;
+	
+
+}
+
+h2{
+	display:block;
+}
+table{
+	border:1px solid black;
+}
+
+#map{
+	height:300px;
+	width: 50%;
+	margin: auto;
+	border:1px solid black;
+}

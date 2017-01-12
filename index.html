@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <meta charset="UTF-8">
+   <title>Sublime Project</title>
+</head>
+<body>
+   <h1>Monk's Cafe</h1>
+   <p>The Coffee Shop</p>
+   <br>
+   <img src="http://www.esr-case.com/storage/articles/635873939628620546815575054_hc%20coffee%20shop_1_1470788130.jpg">
+   <h2>Reservations</h2>
+   <br>
+   <div id="makeRes">
+   	<form>
+   		Name: <input type="text" name="name" placeholder="name">
+   		<br>
+  	 	Day: <input type="date" name="Day"><br><br> 
+  	 	<button>Confirm Reservation</button>
+   	</form>
+   	</div>
+   <div id="existingRes">
+   	<table>
+   	<thead>
+   	<th>Name</th>
+   	<th>Day</th>
+   	</thead>
+   	<tbody>
+   	</tbody>
+   	</table>
+   </div>
+   <br>
+   <br>
+   <h2>Come Dine with Us</h2>
+   <br>
+   <div id="map"></div>
+   <br>
+   <h2>Customer Reviews</h2>
+   <br>
+   <p>"Big lettuce, big carrots, tomatoes like volleyballs." <br> - Jerry Seinfeld, on The BIG Salad</p>
+
+   <script src="js/jquery-3.1.1.min.js"></script>
+
+   <script src="js/main.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNbwZ3YkRCvlsHUYjiIKUeTo8WH80bkQ8&callback=initMap"
+    async defer></script>
+
+</body>
+</html>
